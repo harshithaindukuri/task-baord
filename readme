@@ -1,0 +1,11 @@
+once the save button entered:
+
+1) check if its existing task
+1) if yes hold the task record , and last child record
+2)check if the last child task completed
+2) if yes - create a child task with next counter and save data to child dataframe
+2) if no - update the child id for the parent id
+
+1) if not existing - add a next counter and save data to parent dataframe
+2) start from 1 and save data to child dataframe
+
